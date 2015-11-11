@@ -117,7 +117,7 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Inte min button"
+                android:text="Inte min butt"
                 android:id="@+id/button14"
                 android:layout_gravity="center_horizontal" />
 
