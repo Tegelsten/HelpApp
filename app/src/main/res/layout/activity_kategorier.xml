@@ -103,7 +103,7 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Button"
+                android:text="New ganja"
                 android:id="@+id/button12"
                 android:layout_gravity="center_horizontal" />
 
