@@ -103,7 +103,7 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Newd ganja"
+                android:text="uuuuuuuuuuuuuuuuuuuuuuuuuu ganja"
                 android:id="@+id/button12"
                 android:layout_gravity="center_horizontal" />
 
@@ -117,7 +117,8 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Inte min butts ass"
+                android:text="Inte min butts ass
+
                 android:id="@+id/button14"
                 android:layout_gravity="center_horizontal" />
 
