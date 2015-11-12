@@ -88,7 +88,7 @@
             android:layout_width="160dp"
             android:layout_height="80dp"
             android:text="datorer"
-            android:onClick="datorer"
+            android:onClick="kategorier"
             android:id="@+id/button"
             android:background="#35fa30"
             android:layout_alignParentBottom="true"
