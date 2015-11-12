@@ -39,8 +39,26 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void kategorier(View view) {
-        Intent startNewActivity = new Intent(this,kategorier.class);
+    public void datorer(View view) {
+        Intent startNewActivity = new Intent(this,datorer.class);
+
+        startActivity(startNewActivity);
+
+    }
+    public void datorkomponenter(View view) {
+        Intent startNewActivity = new Intent(this,datorkomponenter.class);
+
+        startActivity(startNewActivity);
+
+    }
+    public void android(View view) {
+        Intent startNewActivity = new Intent(this,android.class);
+
+        startActivity(startNewActivity);
+
+    }
+    public void videos(View view) {
+        Intent startNewActivity = new Intent(this,videos.class);
 
         startActivity(startNewActivity);
 
