@@ -20,7 +20,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:text="Tips"
+            android:text="Tipsy"
             android:id="@+id/button5"
             android:background="#FFFFFF"
             android:layout_weight=".5"
