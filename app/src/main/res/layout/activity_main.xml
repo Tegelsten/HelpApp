@@ -117,7 +117,7 @@
         <Button
             android:layout_width="160dp"
             android:layout_height="80dp"
-            android:text="android"
+            android:text="android/IOS"
             android:onClick="android"
             android:id="@+id/button3"
             android:background="#35fa30"
