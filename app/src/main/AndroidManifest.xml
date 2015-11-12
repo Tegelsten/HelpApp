@@ -17,8 +17,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".kategorier"
-            android:label="kategorier" >
+            android:name=".datorer"
+            android:label="datorer" >
+        </activity>
+        <activity
+            android:name=".datorkomponenter"
+            android:label="datorkomponenter" >
+        </activity>
+        <activity
+            android:name=".android"
+            android:label="android" >
+        </activity>
+        <activity
+            android:name=".videos"
+            android:label="videos" >
         </activity>
     </application>
 
