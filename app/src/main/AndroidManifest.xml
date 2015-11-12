@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".datorer"
-            android:label="datorer" >
+            android:name=".kategorier"
+            android:label="kategorier" >
         </activity>
         <activity
             android:name=".datorkomponenter"
