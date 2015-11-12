@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void datorer(View view) {
-        Intent startNewActivity = new Intent(this,datorer.class);
+    public void kategorier(View view) {
+        Intent startNewActivity = new Intent(this,kategorier.class);
 
         startActivity(startNewActivity);
 
