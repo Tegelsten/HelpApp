@@ -69,58 +69,58 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="button 1"
+                android:text="Inget ljud"
                 android:id="@+id/button7" />
 
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Button"
+                android:text="Mikrofonen funkar inte"
                 android:id="@+id/button8"
                 android:layout_gravity="center_horizontal" />
 
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Button"
+                android:text="Får bluescreens"
                 android:id="@+id/button9"
                 android:layout_gravity="center_horizontal" />
 
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Button"
+                android:text="Inget internet"
                 android:id="@+id/button10"
                 android:layout_gravity="center_horizontal" />
 
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Button"
+                android:text="Ingen bild"
                 android:id="@+id/button11"
                 android:layout_gravity="center_horizontal" />
 
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="uuuuuuuuuuuuuuuuuuuuuuuuuu ganja"
+                android:text="Datorn fryser"
                 android:id="@+id/button12"
                 android:layout_gravity="center_horizontal" />
 
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Dick Button"
+                android:text="Ingenting körs"
                 android:id="@+id/button13"
                 android:layout_gravity="center_horizontal" />
 
-            <Button
+            <SearchView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Inte min butts ass
+                android:id="@+id/searchView2"
+                android:layout_gravity="center_horizontal"
+                android:queryHint="Sök problem" />
 
-                android:id="@+id/button14"
-                android:layout_gravity="center_horizontal" />
 
         </LinearLayout>
 
