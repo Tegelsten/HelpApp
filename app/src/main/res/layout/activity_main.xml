@@ -102,7 +102,7 @@
         <Button
             android:layout_width="160dp"
             android:layout_height="80dp"
-            android:text="datorkomponenter"
+            android:text="dator\nkomponenter"
             android:onClick="datorkomponenter"
             android:id="@+id/button2"
             android:background="#35fa30"
