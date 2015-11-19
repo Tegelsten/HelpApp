@@ -33,17 +33,9 @@
             android:label="videos" >
         </activity>
         <activity
-            android:name=".IngetLjud" android:label="@string/title_activity_inget_ljud" />
-        <activity android:name=".mobil" android:label="@string/title_activity_mobil"></activity>
+            android:name=".IngetLjud"
+            android:label="@string/title_activity_inget_ljud"></activity>
+
     </application>
-
-</manifest>
-
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
-<application>
-    <activity android:name="com.example.tegelsten.helpapp101.datorkomponenter"
-        android:label="@string/title_activity_datorkomponenter"></activity>
-</application>
 
 </manifest>
