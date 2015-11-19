@@ -118,7 +118,7 @@
             android:layout_width="160dp"
             android:layout_height="80dp"
             android:text="android/IOS"
-            android:onClick="android"
+            android:onClick="mobil"
             android:id="@+id/button3"
             android:background="#35fa30"
             android:layout_above="@id/button"
