@@ -51,7 +51,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(startNewActivity);
 
     }
-    public void android(View view) {
+
+    public void mobil(View view) {
         Intent startNewActivity = new Intent(this, mobil.class);
 
         startActivity(startNewActivity);

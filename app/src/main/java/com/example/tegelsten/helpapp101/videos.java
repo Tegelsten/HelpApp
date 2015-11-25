@@ -10,13 +10,13 @@ public class videos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kategorier);
+        setContentView(R.layout.activity_videos);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_kategorier, menu);
+        getMenuInflater().inflate(R.menu.menu_videos, menu);
         return true;
     }
 
