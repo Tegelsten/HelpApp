@@ -66,62 +66,12 @@
             android:background="#FFFFFF"
             android:layout_centerVertical="true">
 
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Inget ljud"
-                android:id="@+id/button7" />
 
-            <Button
-                android:layout_width="fill_parent"
+            <ListView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Mikrofonen funkar inte"
-                android:id="@+id/button8"
+                android:id="@+id/list"
                 android:layout_gravity="center_horizontal" />
-
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Får bluescreens"
-                android:id="@+id/button9"
-                android:layout_gravity="center_horizontal" />
-
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Inget internet"
-                android:id="@+id/button10"
-                android:layout_gravity="center_horizontal" />
-
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Ingen bild"
-                android:id="@+id/button11"
-                android:layout_gravity="center_horizontal" />
-
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Datorn fryser"
-                android:id="@+id/button12"
-                android:layout_gravity="center_horizontal" />
-
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Ingenting körs"
-                android:id="@+id/button13"
-                android:layout_gravity="center_horizontal" />
-
-            <SearchView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/searchView2"
-                android:layout_gravity="center_horizontal"
-                android:queryHint="Sök problem" />
-
-
         </LinearLayout>
 
     </RelativeLayout>
@@ -136,3 +86,5 @@
         android:layout_marginTop="30dp"></FrameLayout>
 
 </RelativeLayout>
+
+
