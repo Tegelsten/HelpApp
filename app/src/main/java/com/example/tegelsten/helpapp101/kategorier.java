@@ -1,5 +1,6 @@
 package com.example.tegelsten.helpapp101;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,6 +14,14 @@ import android.widget.Toast;
 import com.example.tegelsten.helpapp101.R;
 
 public class kategorier extends AppCompatActivity {
+
+    public static String textkod;
+
+    public static String knapps1;
+    public static String knapps2;
+    public static String knapps3;
+    public static String knapps4;
+
 
     ListView listView;
 
@@ -58,13 +67,166 @@ public class kategorier extends AppCompatActivity {
                 // ListView Clicked item index
                 int itemPosition = position;
 
+                if (itemPosition == 0) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    // När du trycker på knapp byts texten på layouten till det du vill ha
+
+                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_ingetljudtxt);
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 1) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    // När du trycker på knapp byts texten på layouten till det du vill ha
+
+                    String knapp1 = getResources().getString(R.string.mikprob_knapp1);
+                    String knapp2 = getResources().getString(R.string.mikprob_knapp2);
+                    String knapp3 = getResources().getString(R.string.mikprob_knapp3);
+                    String knapp4 = getResources().getString(R.string.mikprob_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_miktxt);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 2) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    // När du trycker på knapp byts texten på layouten till det du vill ha
+
+                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_bluescreen);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 3) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    // När du trycker på knapp byts texten på layouten till det du vill ha
+
+                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_internet);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 4) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    // När du trycker på knapp byts texten på layouten till det du vill ha
+
+                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_bild);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 5) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    // När du trycker på knapp byts texten på layouten till det du vill ha
+
+                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_frys);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 6) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    // När du trycker på knapp byts texten på layouten till det du vill ha
+
+                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_kors);
+
+                    textkod = mess;
+
+                }
+
                 // ListView Clicked item value
-                String itemValue = (String) listView.getItemAtPosition(position);
+                //String itemValue = (String) listView.getItemAtPosition(position);
 
                 // Show Alert
-                Toast.makeText(getApplicationContext(),
-                        "Position :" + itemPosition + "  ListItem : " + itemValue, Toast.LENGTH_LONG)
-                        .show();
+                // Toast.makeText(getApplicationContext(),
+                //        "Position :" + itemPosition + "  ListItem : " + itemValue, Toast.LENGTH_LONG)
+                //        .show();
 
             }
 

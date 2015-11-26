@@ -5,12 +5,31 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import android.widget.Button;
+import android.widget.TextView;
+
 public class IngetLjud extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inget_ljud);
+
+        TextView textElement = (TextView) findViewById(R.id.textView2);
+        textElement.setText(kategorier.textkod);
+
+        Button knapp1 = (Button) findViewById(R.id.knapp1);
+        knapp1.setText(kategorier.knapps1);
+
+        Button knapp2 = (Button) findViewById(R.id.knapp2);
+        knapp2.setText(kategorier.knapps2);
+
+        Button knapp3 = (Button) findViewById(R.id.knapp3);
+        knapp3.setText(kategorier.knapps3);
+
+        Button knapp4 = (Button) findViewById(R.id.knapp4);
+        knapp4.setText(kategorier.knapps4);
+
     }
 
     @Override
