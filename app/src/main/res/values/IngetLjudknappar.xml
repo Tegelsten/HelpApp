@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ingetljud_knapp1">Kolla Volymkontrollen</string>
+    <string name="ingetljud_knapp2">Kolla USB</string>
+    <string name="ingetljud_knapp3">Rätt uppspelningsenhet</string>
+    <string name="ingetljud_knapp4">Drivers</string>
+
+    <string name="mikprob_knapp1">Kolla Inspelningsenheter</string>
+    <string name="mikprob_knapp2">Kolla USB</string>
+    <string name="mikprob_knapp3">Om trådlös, störningar</string>
+    <string name="mikprob_knapp4">Drivers</string>
+
+</resources>
