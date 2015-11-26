@@ -30,11 +30,13 @@
         </activity>
         <activity
             android:name=".videos"
-            android:label="videos" >
+            android:label="videos">
         </activity>
         <activity
             android:name=".IngetLjud"
-            android:label="@string/title_activity_inget_ljud"></activity>
+            android:label="@string/title_activity_inget_ljud">
+
+        </activity>
 
     </application>
 
