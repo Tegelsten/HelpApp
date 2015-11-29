@@ -2,36 +2,32 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\97emta24\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex
-            dex="C:\Users\97emta24\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-f6a7f4650bae727a4d2d67735ca4d3b2d4f5330f.jar" />
-    </item>
-    <item
-        jar="C:\Users\97emta24\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jar="C:\Users\Edward Snowden\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex
-            dex="C:\Users\97emta24\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\pre-dexed\debug\classes-14ec3a2a6aabe53b6ea750545f2b9d6e1c7cbb05.jar" />
+        <dex dex="C:\Users\Edward Snowden\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\pre-dexed\debug\classes-d4bd487799e0ab1b087a64368e0dcc4ff9e26f43.jar" />
     </item>
     <item
-        jar="C:\Users\97emta24\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jar="C:\Users\Edward Snowden\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex
-            dex="C:\Users\97emta24\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\pre-dexed\debug\classes-25412c054d2b344fc1f67bf1e869820206b56280.jar" />
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Edward Snowden\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-5056f2a3a40236c7d52401a39669b519232d2b60.jar" />
     </item>
     <item
-        jar="C:\Users\97emta24\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jar="C:\Users\Edward Snowden\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex
-            dex="C:\Users\97emta24\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-70af9eb40a460158477730affc3f6700d7d556a9.jar" />
+        <dex dex="C:\Users\Edward Snowden\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-1004b5291b587a3f0969b2c98306fe396fef9c6c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Edward Snowden\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Edward Snowden\Dropbox\Gymnasiearbetet\HelpApp101\app\build\intermediates\pre-dexed\debug\classes-ff88c1e66e553b4fda32591512292e5b90748c9b.jar" />
     </item>
 
 </items>
