@@ -32,7 +32,7 @@ public class kategorier extends AppCompatActivity {
         setContentView(R.layout.activity_kategorier);
 
 
-        listView = (ListView) findViewById(R.id.list);
+        listView = (ListView) findViewById(R.id.listProb);
 
         // Defined Array values to show in ListView
         String[] values = new String[]{"Inget ljud",
