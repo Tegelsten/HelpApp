@@ -47,7 +47,6 @@ public class kategorier extends AppCompatActivity {
                 "Ingenting körs"
         };
 
-        ToppBar.setBackgroundColor(getResources().getColor(android.R.color.white));
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);
@@ -232,7 +231,6 @@ public class kategorier extends AppCompatActivity {
 
     public void buttprobOnclick(View v) {
 
-
         String[] values = new String[]{"Inget ljud",
                 "Mikrofonen funkar inte",
                 "Får bluescreens",
@@ -241,8 +239,6 @@ public class kategorier extends AppCompatActivity {
                 "Datorn fryser",
                 "Ingenting körs"
         };
-
-        ToppBar.setBackgroundColor(getResources().getColor(android.R.color.white));
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);
@@ -417,8 +413,6 @@ public class kategorier extends AppCompatActivity {
                 "Programmering",
                 "Undvika krasher"
         };
-
-        ToppBar.setBackgroundColor(getResources().getColor(android.R.color.black));
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);

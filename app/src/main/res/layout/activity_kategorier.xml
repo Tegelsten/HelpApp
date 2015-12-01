@@ -22,19 +22,19 @@
             android:layout_height="fill_parent"
             android:text="Problem"
             android:id="@+id/Problem"
-            android:background="#FFFFFF"
+            android:background="#006400"
             android:layout_weight=".5"
             android:layout_marginRight="5dp"
             android:onClick="buttprobOnclick"
-            android:nestedScrollingEnabled="true" />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:text="Tips"
             android:id="@+id/Tips"
-            android:background="#000000"
-            android:textColor="#FFFFFF"
+            android:background="#35fa30"
+            android:textColor="#000000"
             android:layout_weight=".5"
             android:layout_marginLeft="5dp"
             android:onClick="buttTipsOnclick" />
@@ -59,6 +59,7 @@
         android:layout_alignTop="@+id/linearLayout2"
         android:id="@+id/RelLay"
         android:layout_weight="0.7"
+        android:background="#006400"
         android:paddingLeft="40dp"
         android:paddingRight="40dp">
 
@@ -86,7 +87,7 @@
         android:layout_above="@+id/RelLay"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/linearLayout"
-        android:background="#000000"
+        android:background="#006400"
         android:layout_marginTop="30dp"
         android:id="@+id/ToppBar"></FrameLayout>
 
