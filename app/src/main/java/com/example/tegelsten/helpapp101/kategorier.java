@@ -1,6 +1,7 @@
 package com.example.tegelsten.helpapp101;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -36,7 +37,9 @@ public class kategorier extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.list);
         Problem = (Button) findViewById(R.id.Problem);
         Tips = (Button) findViewById(R.id.Tips);
-        ToppBar = (FrameLayout) findViewById(R.id.ToppBar);
+
+        Problem.setTextColor(Color.parseColor("#ffffff"));
+        Tips.setTextColor(Color.parseColor("#000000"));
 
         String[] values = new String[]{"Inget ljud",
                 "Mikrofonen funkar inte",
@@ -240,6 +243,9 @@ public class kategorier extends AppCompatActivity {
                 "Ingenting körs"
         };
 
+        Problem.setTextColor(Color.parseColor("#ffffff"));
+        Tips.setTextColor(Color.parseColor("#000000"));
+
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);
 
@@ -413,6 +419,9 @@ public class kategorier extends AppCompatActivity {
                 "Programmering",
                 "Undvika krasher"
         };
+
+        Tips.setTextColor(Color.parseColor("#ffffff"));
+        Problem.setTextColor(Color.parseColor("#000000"));
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);

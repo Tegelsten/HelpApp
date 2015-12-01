@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    // Kategorier
+
+    // Inget Ljud knappar
     <string name="ingetljud_knapp1">Kolla Volymkontrollen</string>
     <string name="ingetljud_knapp2">Kolla USB</string>
     <string name="ingetljud_knapp3">Rätt uppspelningsenhet</string>
     <string name="ingetljud_knapp4">Drivers</string>
 
+    // Mic inte funkar knappar
     <string name="mikprob_knapp1">Kolla Inspelningsenheter</string>
     <string name="mikprob_knapp2">Kolla USB</string>
     <string name="mikprob_knapp3">Om trådlös, störningar</string>

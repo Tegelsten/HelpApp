@@ -8,6 +8,7 @@
     <string name="title_activity_mobil">mobil</string>
     <string name="title_activity_datorkomponenter">datorkomponenter</string>
 
+    // Kategorier Innehåll
     <string name="title_text_ingetljudtxt">Inget Ljud danke dunke munke lunke runke bunke nugga niguy</string>
     <string name="title_text_miktxt">Mikrofonen funkar ej, låt mig simma med aquaboy</string>
     <string name="title_text_bluescreen">Das bluescreen = gråta</string>
