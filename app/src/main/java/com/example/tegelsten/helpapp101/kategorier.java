@@ -27,7 +27,6 @@ public class kategorier extends AppCompatActivity {
     ListView listView;
     Button Problem;
     Button Tips;
-    FrameLayout ToppBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -107,10 +106,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Blue_knapp1);
+                    String knapp2 = getResources().getString(R.string.Blue_knapp2);
+                    String knapp3 = getResources().getString(R.string.Blue_knapp3);
+                    String knapp4 = getResources().getString(R.string.Blue_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -127,10 +126,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Internet_knapp1);
+                    String knapp2 = getResources().getString(R.string.Internet_knapp2);
+                    String knapp3 = getResources().getString(R.string.Internet_knapp3);
+                    String knapp4 = getResources().getString(R.string.Internet_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -147,10 +146,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Bild_knapp1);
+                    String knapp2 = getResources().getString(R.string.Bild_knapp2);
+                    String knapp3 = getResources().getString(R.string.Bild_knapp3);
+                    String knapp4 = getResources().getString(R.string.Bild_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -167,10 +166,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.frys_knapp1);
+                    String knapp2 = getResources().getString(R.string.frys_knapp2);
+                    String knapp3 = getResources().getString(R.string.frys_knapp3);
+                    String knapp4 = getResources().getString(R.string.frys_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -187,10 +186,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.kors_knapp1);
+                    String knapp2 = getResources().getString(R.string.kors_knapp2);
+                    String knapp3 = getResources().getString(R.string.kors_knapp3);
+                    String knapp4 = getResources().getString(R.string.kors_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -305,10 +304,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Blue_knapp1);
+                    String knapp2 = getResources().getString(R.string.Blue_knapp2);
+                    String knapp3 = getResources().getString(R.string.Blue_knapp3);
+                    String knapp4 = getResources().getString(R.string.Blue_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -325,10 +324,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Internet_knapp1);
+                    String knapp2 = getResources().getString(R.string.Internet_knapp2);
+                    String knapp3 = getResources().getString(R.string.Internet_knapp3);
+                    String knapp4 = getResources().getString(R.string.Internet_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -345,10 +344,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Bild_knapp1);
+                    String knapp2 = getResources().getString(R.string.Bild_knapp2);
+                    String knapp3 = getResources().getString(R.string.Bild_knapp3);
+                    String knapp4 = getResources().getString(R.string.Bild_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -365,10 +364,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.frys_knapp1);
+                    String knapp2 = getResources().getString(R.string.frys_knapp2);
+                    String knapp3 = getResources().getString(R.string.frys_knapp3);
+                    String knapp4 = getResources().getString(R.string.frys_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -385,10 +384,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.kors_knapp1);
+                    String knapp2 = getResources().getString(R.string.kors_knapp2);
+                    String knapp3 = getResources().getString(R.string.kors_knapp3);
+                    String knapp4 = getResources().getString(R.string.kors_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;

@@ -15,4 +15,34 @@
     <string name="mikprob_knapp3">Om trådlös, störningar</string>
     <string name="mikprob_knapp4">Drivers</string>
 
+    // Bluescreens problem
+    <string name="Blue_knapp1">Diagnosera</string>
+    <string name="Blue_knapp2">Hårdvara</string>
+    <string name="Blue_knapp3">Temperatur</string>
+    <string name="Blue_knapp4">RAM test</string>
+
+    // Internet problem
+    <string name="Internet_knapp1">Kolla Ethernet kabel</string>
+    <string name="Internet_knapp2">Wi-Fi knappen</string>
+    <string name="Internet_knapp3">Byta IP-adress</string>
+    <string name="Internet_knapp4">Ring Operatör</string>
+
+    // Bild problem
+    <string name="Bild_knapp1">Kolla kabel</string>
+    <string name="Bild_knapp2">Grafik problem</string>
+    <string name="Bild_knapp3">Skärminställningar</string>
+    <string name="Bild_knapp4">Datorn sover</string>
+
+    // Datorn fryser
+    <string name="frys_knapp1">Många program</string>
+    <string name="frys_knapp2">Driver</string>
+    <string name="frys_knapp3">Operativsystem</string>
+    <string name="frys_knapp4">Hårdvaru problem</string>
+
+    // Ingenting körs
+    <string name="kors_knapp1">Stryp datorn</string>
+    <string name="kors_knapp2">Virus</string>
+    <string name="kors_knapp3">Aktivitetshanterarn</string>
+    <string name="kors_knapp4">Nätaggregat</string>
+
 </resources>
