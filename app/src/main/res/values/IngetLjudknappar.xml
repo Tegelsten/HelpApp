@@ -45,4 +45,51 @@
     <string name="kors_knapp3">Aktivitetshanterarn</string>
     <string name="kors_knapp4">Nätaggregat</string>
 
+
+    // Tips
+    // Kortkommandon
+    <string name="Kortkommandontips_knapp1">Allmäna kortkommandon</string>
+    <string name="Kortkommandontips_knapp2">Windows kortkommandon</string>
+    <string name="Kortkommandontips_knapp3">Dialogbox kortkommandon</string>
+    <string name="Kortkommandontips_knapp4">Filhanterare kortkommandon</string>
+    // http://www.hongkiat.com/blog/100-keyboard-shortcuts-windows/
+
+
+    // Webbläsare
+    <string name="Webbläsaretips_knapp1"></string>
+    <string name="Webbläsaretips_knapp2"></string>
+    <string name="Webbläsaretips_knapp3"></string>
+    <string name="Webbläsaretips_knapp4"></string>
+
+    // Hantera virus
+    <string name="virustips_knapp1"></string>
+    <string name="virustips_knapp2"></string>
+    <string name="virustips_knapp3"></string>
+    <string name="virustips_knapp4"></string>
+
+    // Program
+    <string name="Programtips_knapp1"></string>
+    <string name="Programtips_knapp2"></string>
+    <string name="Programtips_knapp3"></string>
+    <string name="Programtips_knapp4"></string>
+
+    // Paint
+    <string name="Painttips_knapp1"></string>
+    <string name="Painttips_knapp2"></string>
+    <string name="Painttips_knapp3"></string>
+    <string name="Painttips_knapp4"></string>
+
+    // Programmering
+    <string name="Programmeringtips_knapp1"></string>
+    <string name="Programmeringtips_knapp2"></string>
+    <string name="Programmeringtips_knapp3"></string>
+    <string name="Programmeringtips_knapp4"></string>
+
+
+    // Undvika krascher
+    <string name="kraschertips_knapp1"></string>
+    <string name="kraschertips_knapp2"></string>
+    <string name="kraschertips_knapp3"></string>
+    <string name="kraschertips_knapp4"></string>
+
 </resources>

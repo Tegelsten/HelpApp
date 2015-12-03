@@ -22,24 +22,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/knapp1"
-            android:layout_gravity="center_vertical" />
+            android:layout_gravity="center_vertical"
+            android:onClick="butt1" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/knapp2" />
+            android:id="@+id/knapp2"
+            android:onClick="butt2" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/knapp3"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:onClick="butt3" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/knapp4"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:onClick="butt4" />
     </LinearLayout>
 
     <LinearLayout
@@ -54,7 +58,6 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView2"
-            android:layout_gravity="center_horizontal"
             android:layout_weight="0.19" />
     </LinearLayout>
 
