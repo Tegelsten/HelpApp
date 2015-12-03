@@ -14,7 +14,10 @@ import android.widget.ListView;
 
 public class mobil extends AppCompatActivity {
 
-    public static String textkod;
+    public static String text1s;
+    public static String text2s;
+    public static String text3s;
+    public static String text4s;
 
     public static String knapps1;
     public static String knapps2;
@@ -62,140 +65,168 @@ public class mobil extends AppCompatActivity {
 
                 if (itemPosition == 0) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
                     String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    text1s = getResources().getString(R.string.title_text_ingetljudtxt1);
+
                     String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    text2s = getResources().getString(R.string.title_text_ingetljudtxt2);
+
                     String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    text3s = getResources().getString(R.string.title_text_ingetljudtxt3);
+
                     String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    text4s = getResources().getString(R.string.title_text_ingetljudtxt4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
-
-                    String mess = getResources().getString(R.string.title_text_ingetljudtxt);
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 1) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
                     String knapp1 = getResources().getString(R.string.mikprob_knapp1);
+                    text1s = getResources().getString(R.string.title_text_miktxt1);
+
                     String knapp2 = getResources().getString(R.string.mikprob_knapp2);
+                    text2s = getResources().getString(R.string.title_text_miktxt2);
+
                     String knapp3 = getResources().getString(R.string.mikprob_knapp3);
+                    text3s = getResources().getString(R.string.title_text_miktxt3);
+
                     String knapp4 = getResources().getString(R.string.mikprob_knapp4);
+                    text4s = getResources().getString(R.string.title_text_miktxt4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_miktxt);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 2) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Blue_knapp1);
+                    text1s = getResources().getString(R.string.title_text_bluescreen1);
+
+                    String knapp2 = getResources().getString(R.string.Blue_knapp2);
+                    text2s = getResources().getString(R.string.title_text_bluescreen2);
+
+                    String knapp3 = getResources().getString(R.string.Blue_knapp3);
+                    text3s = getResources().getString(R.string.title_text_bluescreen3);
+
+                    String knapp4 = getResources().getString(R.string.Blue_knapp4);
+                    text4s = getResources().getString(R.string.title_text_bluescreen4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_bluescreen);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 3) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Internet_knapp1);
+                    text1s = getResources().getString(R.string.title_text_internet1);
+
+                    String knapp2 = getResources().getString(R.string.Internet_knapp2);
+                    text2s = getResources().getString(R.string.title_text_internet2);
+
+                    String knapp3 = getResources().getString(R.string.Internet_knapp3);
+                    text3s = getResources().getString(R.string.title_text_internet3);
+
+                    String knapp4 = getResources().getString(R.string.Internet_knapp4);
+                    text4s = getResources().getString(R.string.title_text_internet4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_internet);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 4) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Bild_knapp1);
+                    text1s = getResources().getString(R.string.title_text_bild1);
+
+                    String knapp2 = getResources().getString(R.string.Bild_knapp2);
+                    text2s = getResources().getString(R.string.title_text_bild2);
+
+                    String knapp3 = getResources().getString(R.string.Bild_knapp3);
+                    text3s = getResources().getString(R.string.title_text_bild3);
+
+                    String knapp4 = getResources().getString(R.string.Bild_knapp4);
+                    text4s = getResources().getString(R.string.title_text_bild4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_bild);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 5) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.frys_knapp1);
+                    text1s = getResources().getString(R.string.title_text_frys1);
+
+                    String knapp2 = getResources().getString(R.string.frys_knapp2);
+                    text2s = getResources().getString(R.string.title_text_frys2);
+
+                    String knapp3 = getResources().getString(R.string.frys_knapp3);
+                    text3s = getResources().getString(R.string.title_text_frys3);
+
+                    String knapp4 = getResources().getString(R.string.frys_knapp4);
+                    text4s = getResources().getString(R.string.title_text_frys4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_frys);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 6) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.kors_knapp1);
+                    text1s = getResources().getString(R.string.title_text_kors1);
+
+                    String knapp2 = getResources().getString(R.string.kors_knapp2);
+                    text2s = getResources().getString(R.string.title_text_kors2);
+
+                    String knapp3 = getResources().getString(R.string.kors_knapp3);
+                    text3s = getResources().getString(R.string.title_text_kors3);
+
+                    String knapp4 = getResources().getString(R.string.kors_knapp4);
+                    text4s = getResources().getString(R.string.title_text_kors4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_kors);
-
-                    textkod = mess;
 
                 }
 
@@ -262,140 +293,168 @@ public class mobil extends AppCompatActivity {
 
                 if (itemPosition == 0) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
                     String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    text1s = getResources().getString(R.string.title_text_ingetljudtxt1);
+
                     String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    text2s = getResources().getString(R.string.title_text_ingetljudtxt2);
+
                     String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    text3s = getResources().getString(R.string.title_text_ingetljudtxt3);
+
                     String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    text4s = getResources().getString(R.string.title_text_ingetljudtxt4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
-
-                    String mess = getResources().getString(R.string.title_text_ingetljudtxt);
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 1) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
                     String knapp1 = getResources().getString(R.string.mikprob_knapp1);
+                    text1s = getResources().getString(R.string.title_text_miktxt1);
+
                     String knapp2 = getResources().getString(R.string.mikprob_knapp2);
+                    text2s = getResources().getString(R.string.title_text_miktxt2);
+
                     String knapp3 = getResources().getString(R.string.mikprob_knapp3);
+                    text3s = getResources().getString(R.string.title_text_miktxt3);
+
                     String knapp4 = getResources().getString(R.string.mikprob_knapp4);
+                    text4s = getResources().getString(R.string.title_text_miktxt4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_miktxt);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 2) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Blue_knapp1);
+                    text1s = getResources().getString(R.string.title_text_bluescreen1);
+
+                    String knapp2 = getResources().getString(R.string.Blue_knapp2);
+                    text2s = getResources().getString(R.string.title_text_bluescreen2);
+
+                    String knapp3 = getResources().getString(R.string.Blue_knapp3);
+                    text3s = getResources().getString(R.string.title_text_bluescreen3);
+
+                    String knapp4 = getResources().getString(R.string.Blue_knapp4);
+                    text4s = getResources().getString(R.string.title_text_bluescreen4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_bluescreen);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 3) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Internet_knapp1);
+                    text1s = getResources().getString(R.string.title_text_internet1);
+
+                    String knapp2 = getResources().getString(R.string.Internet_knapp2);
+                    text2s = getResources().getString(R.string.title_text_internet2);
+
+                    String knapp3 = getResources().getString(R.string.Internet_knapp3);
+                    text3s = getResources().getString(R.string.title_text_internet3);
+
+                    String knapp4 = getResources().getString(R.string.Internet_knapp4);
+                    text4s = getResources().getString(R.string.title_text_internet4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_internet);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 4) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Bild_knapp1);
+                    text1s = getResources().getString(R.string.title_text_bild1);
+
+                    String knapp2 = getResources().getString(R.string.Bild_knapp2);
+                    text2s = getResources().getString(R.string.title_text_bild2);
+
+                    String knapp3 = getResources().getString(R.string.Bild_knapp3);
+                    text3s = getResources().getString(R.string.title_text_bild3);
+
+                    String knapp4 = getResources().getString(R.string.Bild_knapp4);
+                    text4s = getResources().getString(R.string.title_text_bild4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_bild);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 5) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.frys_knapp1);
+                    text1s = getResources().getString(R.string.title_text_frys1);
+
+                    String knapp2 = getResources().getString(R.string.frys_knapp2);
+                    text2s = getResources().getString(R.string.title_text_frys2);
+
+                    String knapp3 = getResources().getString(R.string.frys_knapp3);
+                    text3s = getResources().getString(R.string.title_text_frys3);
+
+                    String knapp4 = getResources().getString(R.string.frys_knapp4);
+                    text4s = getResources().getString(R.string.title_text_frys4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_frys);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 6) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.kors_knapp1);
+                    text1s = getResources().getString(R.string.title_text_kors1);
+
+                    String knapp2 = getResources().getString(R.string.kors_knapp2);
+                    text2s = getResources().getString(R.string.title_text_kors2);
+
+                    String knapp3 = getResources().getString(R.string.kors_knapp3);
+                    text3s = getResources().getString(R.string.title_text_kors3);
+
+                    String knapp4 = getResources().getString(R.string.kors_knapp4);
+                    text4s = getResources().getString(R.string.title_text_kors4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_kors);
-
-                    textkod = mess;
 
                 }
 
@@ -439,140 +498,170 @@ public class mobil extends AppCompatActivity {
 
                 if (itemPosition == 0) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Kortkommandontips_knapp1);
+                    text1s = getResources().getString(R.string.title_text_kortkom1);
+
+                    String knapp2 = getResources().getString(R.string.Kortkommandontips_knapp2);
+                    text2s = getResources().getString(R.string.title_text_kortkom2);
+
+                    String knapp3 = getResources().getString(R.string.Kortkommandontips_knapp3);
+                    text3s = getResources().getString(R.string.title_text_kortkom3);
+
+                    String knapp4 = getResources().getString(R.string.Kortkommandontips_knapp4);
+                    text4s = getResources().getString(R.string.title_text_kortkom4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_ingetljudtxt);
-                    textkod = mess;
+
 
                 }
 
                 if (itemPosition == 1) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.mikprob_knapp1);
-                    String knapp2 = getResources().getString(R.string.mikprob_knapp2);
-                    String knapp3 = getResources().getString(R.string.mikprob_knapp3);
-                    String knapp4 = getResources().getString(R.string.mikprob_knapp4);
+                    String knapp1 = getResources().getString(R.string.Webbläsaretips_knapp1);
+                    text1s = getResources().getString(R.string.title_text_webb1);
+
+                    String knapp2 = getResources().getString(R.string.Webbläsaretips_knapp2);
+                    text2s = getResources().getString(R.string.title_text_webb2);
+
+                    String knapp3 = getResources().getString(R.string.Webbläsaretips_knapp3);
+                    text3s = getResources().getString(R.string.title_text_webb3);
+
+                    String knapp4 = getResources().getString(R.string.Webbläsaretips_knapp4);
+                    text4s = getResources().getString(R.string.title_text_webb4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_miktxt);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 2) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.virustips_knapp1);
+                    text1s = getResources().getString(R.string.title_text_virus1);
+
+                    String knapp2 = getResources().getString(R.string.virustips_knapp2);
+                    text2s = getResources().getString(R.string.title_text_virus2);
+
+                    String knapp3 = getResources().getString(R.string.virustips_knapp3);
+                    text3s = getResources().getString(R.string.title_text_virus3);
+
+                    String knapp4 = getResources().getString(R.string.virustips_knapp4);
+                    text4s = getResources().getString(R.string.title_text_virus4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_bluescreen);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 3) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Programtips_knapp1);
+                    text1s = getResources().getString(R.string.title_text_programmering1);
+
+                    String knapp2 = getResources().getString(R.string.Programtips_knapp2);
+                    text2s = getResources().getString(R.string.title_text_programmering2);
+
+                    String knapp3 = getResources().getString(R.string.Programtips_knapp3);
+                    text3s = getResources().getString(R.string.title_text_programmering3);
+
+                    String knapp4 = getResources().getString(R.string.Programtips_knapp4);
+                    text4s = getResources().getString(R.string.title_text_programmering4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_internet);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 4) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Painttips_knapp1);
+                    text4s = getResources().getString(R.string.title_text_paint1);
+
+                    String knapp2 = getResources().getString(R.string.Painttips_knapp2);
+                    text4s = getResources().getString(R.string.title_text_paint2);
+
+                    String knapp3 = getResources().getString(R.string.Painttips_knapp3);
+                    text4s = getResources().getString(R.string.title_text_paint3);
+
+                    String knapp4 = getResources().getString(R.string.Painttips_knapp4);
+                    text4s = getResources().getString(R.string.title_text_paint4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_bild);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 5) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Programmeringtips_knapp1);
+                    text1s = getResources().getString(R.string.title_text_programmering1);
+
+                    String knapp2 = getResources().getString(R.string.Programmeringtips_knapp2);
+                    text2s = getResources().getString(R.string.title_text_programmering2);
+
+                    String knapp3 = getResources().getString(R.string.Programmeringtips_knapp3);
+                    text3s = getResources().getString(R.string.title_text_programmering3);
+
+                    String knapp4 = getResources().getString(R.string.Programmeringtips_knapp4);
+                    text4s = getResources().getString(R.string.title_text_programmering4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_frys);
-
-                    textkod = mess;
 
                 }
 
                 if (itemPosition == 6) {
 
-                    startActivity(new Intent(mobil.this, MobilNasta.class));
+                    startActivity(new Intent(mobil.this, IngetLjud.class));
 
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.kraschertips_knapp1);
+                    text1s = getResources().getString(R.string.title_text_krasch1);
+
+                    String knapp2 = getResources().getString(R.string.kraschertips_knapp2);
+                    text2s = getResources().getString(R.string.title_text_krasch2);
+
+                    String knapp3 = getResources().getString(R.string.kraschertips_knapp3);
+                    text3s = getResources().getString(R.string.title_text_krasch3);
+
+                    String knapp4 = getResources().getString(R.string.kraschertips_knapp4);
+                    text4s = getResources().getString(R.string.title_text_krasch4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
                     knapps3 = knapp3;
                     knapps4 = knapp4;
 
-                    String mess = getResources().getString(R.string.title_text_kors);
-
-                    textkod = mess;
 
                 }
 
