@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -53,4 +54,31 @@ public class IngetLjud extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    TextView textView2;
+
+    public void butt1(View v) {
+        textView2 = (TextView) findViewById(R.id.textView2);
+        textView2.setText(R.string.app_name);
+
+    }
+
+    public void butt2(View v) {
+        textView2 = (TextView) findViewById(R.id.textView2);
+        textView2.setText(R.string.app_name);
+
+    }
+
+    public void butt3(View v) {
+        textView2 = (TextView) findViewById(R.id.textView2);
+        textView2.setText(R.string.app_name);
+
+    }
+
+    public void butt4(View v) {
+        textView2 = (TextView) findViewById(R.id.textView2);
+        textView2.setText(R.string.app_name);
+
+    }
+
 }
