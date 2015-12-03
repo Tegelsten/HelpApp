@@ -1,6 +1,7 @@
 package com.example.tegelsten.helpapp101;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -8,8 +9,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.example.tegelsten.helpapp101.R;
 
@@ -22,19 +24,22 @@ public class kategorier extends AppCompatActivity {
     public static String knapps3;
     public static String knapps4;
 
-
     ListView listView;
-
+    Button Problem;
+    Button Tips;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kategorier);
 
-
         listView = (ListView) findViewById(R.id.list);
+        Problem = (Button) findViewById(R.id.Problem);
+        Tips = (Button) findViewById(R.id.Tips);
 
-        // Defined Array values to show in ListView
+        Problem.setTextColor(Color.parseColor("#ffffff"));
+        Tips.setTextColor(Color.parseColor("#000000"));
+
         String[] values = new String[]{"Inget ljud",
                 "Mikrofonen funkar inte",
                 "Får bluescreens",
@@ -44,34 +49,23 @@ public class kategorier extends AppCompatActivity {
                 "Ingenting körs"
         };
 
-        // Define a new Adapter
-        // First parameter - Context
-        // Second parameter - Layout for the row
-        // Third parameter - ID of the TextView to which the data is written
-        // Forth - the Array of data
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);
 
-
-        // Assign adapter to ListView
         listView.setAdapter(adapter);
 
-        // ListView Item Click Listener
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
 
-                // ListView Clicked item index
                 int itemPosition = position;
 
                 if (itemPosition == 0) {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
-
-                    // När du trycker på knapp byts texten på layouten till det du vill ha
 
                     String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
                     String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
@@ -91,8 +85,6 @@ public class kategorier extends AppCompatActivity {
                 if (itemPosition == 1) {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
-
-                    // När du trycker på knapp byts texten på layouten till det du vill ha
 
                     String knapp1 = getResources().getString(R.string.mikprob_knapp1);
                     String knapp2 = getResources().getString(R.string.mikprob_knapp2);
@@ -114,12 +106,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    // När du trycker på knapp byts texten på layouten till det du vill ha
-
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Blue_knapp1);
+                    String knapp2 = getResources().getString(R.string.Blue_knapp2);
+                    String knapp3 = getResources().getString(R.string.Blue_knapp3);
+                    String knapp4 = getResources().getString(R.string.Blue_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -136,12 +126,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    // När du trycker på knapp byts texten på layouten till det du vill ha
-
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Internet_knapp1);
+                    String knapp2 = getResources().getString(R.string.Internet_knapp2);
+                    String knapp3 = getResources().getString(R.string.Internet_knapp3);
+                    String knapp4 = getResources().getString(R.string.Internet_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -158,12 +146,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    // När du trycker på knapp byts texten på layouten till det du vill ha
-
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.Bild_knapp1);
+                    String knapp2 = getResources().getString(R.string.Bild_knapp2);
+                    String knapp3 = getResources().getString(R.string.Bild_knapp3);
+                    String knapp4 = getResources().getString(R.string.Bild_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -180,12 +166,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    // När du trycker på knapp byts texten på layouten till det du vill ha
-
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.frys_knapp1);
+                    String knapp2 = getResources().getString(R.string.frys_knapp2);
+                    String knapp3 = getResources().getString(R.string.frys_knapp3);
+                    String knapp4 = getResources().getString(R.string.frys_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -202,12 +186,10 @@ public class kategorier extends AppCompatActivity {
 
                     startActivity(new Intent(kategorier.this, IngetLjud.class));
 
-                    // När du trycker på knapp byts texten på layouten till det du vill ha
-
-                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
-                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
-                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
-                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+                    String knapp1 = getResources().getString(R.string.kors_knapp1);
+                    String knapp2 = getResources().getString(R.string.kors_knapp2);
+                    String knapp3 = getResources().getString(R.string.kors_knapp3);
+                    String knapp4 = getResources().getString(R.string.kors_knapp4);
 
                     knapps1 = knapp1;
                     knapps2 = knapp2;
@@ -220,18 +202,10 @@ public class kategorier extends AppCompatActivity {
 
                 }
 
-                // ListView Clicked item value
-                //String itemValue = (String) listView.getItemAtPosition(position);
-
-                // Show Alert
-                // Toast.makeText(getApplicationContext(),
-                //        "Position :" + itemPosition + "  ListItem : " + itemValue, Toast.LENGTH_LONG)
-                //        .show();
 
             }
 
         });
-
 
     }
 
@@ -255,5 +229,358 @@ public class kategorier extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void buttprobOnclick(View v) {
+
+        String[] values = new String[]{"Inget ljud",
+                "Mikrofonen funkar inte",
+                "Får bluescreens",
+                "Inget internet",
+                "Ingen bild",
+                "Datorn fryser",
+                "Ingenting körs"
+        };
+
+        Problem.setTextColor(Color.parseColor("#ffffff"));
+        Tips.setTextColor(Color.parseColor("#000000"));
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1, android.R.id.text1, values);
+
+
+        listView.setAdapter(adapter);
+
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view,
+                                    int position, long id) {
+
+
+                int itemPosition = position;
+
+                if (itemPosition == 0) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_ingetljudtxt);
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 1) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.mikprob_knapp1);
+                    String knapp2 = getResources().getString(R.string.mikprob_knapp2);
+                    String knapp3 = getResources().getString(R.string.mikprob_knapp3);
+                    String knapp4 = getResources().getString(R.string.mikprob_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_miktxt);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 2) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.Blue_knapp1);
+                    String knapp2 = getResources().getString(R.string.Blue_knapp2);
+                    String knapp3 = getResources().getString(R.string.Blue_knapp3);
+                    String knapp4 = getResources().getString(R.string.Blue_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_bluescreen);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 3) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.Internet_knapp1);
+                    String knapp2 = getResources().getString(R.string.Internet_knapp2);
+                    String knapp3 = getResources().getString(R.string.Internet_knapp3);
+                    String knapp4 = getResources().getString(R.string.Internet_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_internet);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 4) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.Bild_knapp1);
+                    String knapp2 = getResources().getString(R.string.Bild_knapp2);
+                    String knapp3 = getResources().getString(R.string.Bild_knapp3);
+                    String knapp4 = getResources().getString(R.string.Bild_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_bild);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 5) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.frys_knapp1);
+                    String knapp2 = getResources().getString(R.string.frys_knapp2);
+                    String knapp3 = getResources().getString(R.string.frys_knapp3);
+                    String knapp4 = getResources().getString(R.string.frys_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_frys);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 6) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.kors_knapp1);
+                    String knapp2 = getResources().getString(R.string.kors_knapp2);
+                    String knapp3 = getResources().getString(R.string.kors_knapp3);
+                    String knapp4 = getResources().getString(R.string.kors_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_kors);
+
+                    textkod = mess;
+
+                }
+
+
+            }
+
+        });
+
+    }
+
+
+    public void buttTipsOnclick(View v) {
+
+        String[] values = new String[]{"Kortkommandon",
+                "Webbläsare",
+                "Hantera virus",
+                "Program",
+                "Paint",
+                "Programmering",
+                "Undvika krasher"
+        };
+
+        Tips.setTextColor(Color.parseColor("#ffffff"));
+        Problem.setTextColor(Color.parseColor("#000000"));
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1, android.R.id.text1, values);
+
+
+        listView.setAdapter(adapter);
+
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view,
+                                    int position, long id) {
+
+
+                int itemPosition = position;
+
+                if (itemPosition == 0) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_ingetljudtxt);
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 1) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.mikprob_knapp1);
+                    String knapp2 = getResources().getString(R.string.mikprob_knapp2);
+                    String knapp3 = getResources().getString(R.string.mikprob_knapp3);
+                    String knapp4 = getResources().getString(R.string.mikprob_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_miktxt);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 2) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_bluescreen);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 3) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_internet);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 4) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_bild);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 5) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_frys);
+
+                    textkod = mess;
+
+                }
+
+                if (itemPosition == 6) {
+
+                    startActivity(new Intent(kategorier.this, IngetLjud.class));
+
+                    String knapp1 = getResources().getString(R.string.ingetljud_knapp1);
+                    String knapp2 = getResources().getString(R.string.ingetljud_knapp2);
+                    String knapp3 = getResources().getString(R.string.ingetljud_knapp3);
+                    String knapp4 = getResources().getString(R.string.ingetljud_knapp4);
+
+                    knapps1 = knapp1;
+                    knapps2 = knapp2;
+                    knapps3 = knapp3;
+                    knapps4 = knapp4;
+
+                    String mess = getResources().getString(R.string.title_text_kors);
+
+                    textkod = mess;
+
+                }
+
+
+            }
+
+        });
+
     }
 }
