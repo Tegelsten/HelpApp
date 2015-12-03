@@ -16,18 +16,18 @@
         <dex dex="C:\Users\97emgu17\Dropbox\helpApp\HelpApp101\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-82f21b4a810cdafb0fce5030abced62b2fdbdc62.jar" />
     </item>
     <item
-        jar="C:\Users\97emgu17\Dropbox\helpApp\HelpApp101\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\Users\97emgu17\Dropbox\helpApp\HelpApp101\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-8cf8e2c96f4b1ec7f7d46bb9d2ff99d496e4bce4.jar" />
-    </item>
-    <item
         jar="C:\Users\97emgu17\Dropbox\helpApp\HelpApp101\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
         <dex dex="C:\Users\97emgu17\Dropbox\helpApp\HelpApp101\app\build\intermediates\pre-dexed\debug\classes-2def48a45200f7b7c81a7ca74abbb620e361c5e8.jar" />
+    </item>
+    <item
+        jar="C:\Users\97emgu17\Dropbox\helpApp\HelpApp101\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\97emgu17\Dropbox\helpApp\HelpApp101\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-8cf8e2c96f4b1ec7f7d46bb9d2ff99d496e4bce4.jar" />
     </item>
 
 </items>

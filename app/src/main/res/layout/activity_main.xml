@@ -131,7 +131,7 @@
         <Button
             android:layout_width="160dp"
             android:layout_height="80dp"
-            android:text="videos"
+            android:text="Om oss"
             android:onClick="videos"
             android:id="@+id/button4"
             android:background="#35fa30"

@@ -30,7 +30,7 @@
         </activity>
         <activity
             android:name=".videos"
-            android:label="videos">
+            android:label="Om oss">
         </activity>
         <activity
             android:name=".IngetLjud"
