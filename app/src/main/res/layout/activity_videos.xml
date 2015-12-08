@@ -13,7 +13,7 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:text="HelpApp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#FFFFFF"
@@ -24,30 +24,70 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="370dp"
-        android:layout_below="@+id/textView3"
+        android:layout_height="350dp"
+        android:background="#78C731"
+        android:weightSum="1"
+        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="10dp">
+        android:layout_alignParentStart="true">
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="220dp"
             android:id="@+id/scrollView"
-            android:layout_gravity="center_horizontal"
-            android:background="#78C731">
+            android:paddingTop="10dp">
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textMultiLine"
-                android:ems="10"
-                android:id="@+id/editText"
-                android:text="HelpApp är vårt gymnasiearbete från år 2015-2016 och var tänkt till att vara en hjälpande hand till som inte kan så mycket om Datorer, Mobiler mm. Vi som har varit med och gjort appen heter Emil Tagebrand, Emil Gustafsson Ek och Kasper Englund&quot;"
-                />
-
+            <TextView
+            android:layout_gravity="bottom"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="HelpApp är ett gymnasiearbete från 2015-2016 som är en hjälpande hand till dem som behöver hjälp/tips inom datorer, mobiler eller datorkomponenter. \n\nOm ni har fått den hjälp ni behöver skulle vi uppskata om ni ger oss en bra rating och även donerar för att hjälpa oss hålla appen igång."
+            android:id="@+id/övertext"
+            android:textColor="#000"
+            android:gravity="left"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
         </ScrollView>
 
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="HelpApp Masters"
+            android:id="@+id/titel_undertext"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textSize="28dp" />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Emil Gustafsson Ek, \nEmil Tagebrand \n(Kasper Englund)"
+            android:id="@+id/undertext"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
     </LinearLayout>
 
 </RelativeLayout>
