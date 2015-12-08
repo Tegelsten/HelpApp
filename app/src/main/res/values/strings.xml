@@ -9,17 +9,4 @@
     <string name="title_activity_datorkomponenter">datorkomponenter</string>
     <string name="title_activity_mobilnasta">mobilnasta</string>
 
-    // Kategorier Innehåll
-    <string name="title_text_ingetljudtxt">Inget Ljud danke dunke munke lunke runke bunke nugga niguy</string>
-    <string name="title_text_miktxt">Mikrofonen funkar ej, låt mig simma med aquaboy</string>
-    <string name="title_text_bluescreen">Das bluescreen = gråta</string>
-    <string name="title_text_internet">ingeintersnasse, palapatine dialo poe</string>
-    <string name="title_text_bild">va ä bilden, öppet hus. komosaurus</string>
-    <string name="title_text_frys">De ä kallt för de fryser</string>
-    <string name="title_text_kors">Varför körs inget please help m14 aim</string>
-
-    // Mobil innehåll
-
-
-
 </resources>

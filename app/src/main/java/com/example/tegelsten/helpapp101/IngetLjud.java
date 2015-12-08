@@ -17,7 +17,7 @@ public class IngetLjud extends AppCompatActivity {
         setContentView(R.layout.activity_inget_ljud);
 
         TextView textElement = (TextView) findViewById(R.id.textView2);
-        textElement.setText(kategorier.textkod);
+        textElement.setText("Välj med knapparna ovanför ovanför");
 
         Button knapp1 = (Button) findViewById(R.id.knapp1);
         knapp1.setText(kategorier.knapps1);
@@ -59,25 +59,25 @@ public class IngetLjud extends AppCompatActivity {
 
     public void butt1(View v) {
         textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(R.string.app_name);
+        textView2.setText(kategorier.text1s);
 
     }
 
     public void butt2(View v) {
         textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(R.string.app_name);
+        textView2.setText(kategorier.text2s);
 
     }
 
     public void butt3(View v) {
         textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(R.string.app_name);
+        textView2.setText(kategorier.text3s);
 
     }
 
     public void butt4(View v) {
         textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(R.string.app_name);
+        textView2.setText(kategorier.text4s);
 
     }
 

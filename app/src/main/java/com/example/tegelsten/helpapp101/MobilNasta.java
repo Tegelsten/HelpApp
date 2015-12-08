@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -15,7 +16,7 @@ public class MobilNasta extends AppCompatActivity {
         setContentView(R.layout.activity_mobilnasta);
 
         TextView textElement = (TextView) findViewById(R.id.textView2);
-        textElement.setText(mobil.textkod);
+        textElement.setText("Välj med knapparna ovanför");
 
         Button knapp1 = (Button) findViewById(R.id.knapp1);
         knapp1.setText(mobil.knapps1);
@@ -51,5 +52,31 @@ public class MobilNasta extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    TextView textView2;
+
+    public void butt1(View v) {
+        textView2 = (TextView) findViewById(R.id.textView2);
+        textView2.setText(kategorier.text1s);
+
+    }
+
+    public void butt2(View v) {
+        textView2 = (TextView) findViewById(R.id.textView2);
+        textView2.setText(kategorier.text2s);
+
+    }
+
+    public void butt3(View v) {
+        textView2 = (TextView) findViewById(R.id.textView2);
+        textView2.setText(kategorier.text3s);
+
+    }
+
+    public void butt4(View v) {
+        textView2 = (TextView) findViewById(R.id.textView2);
+        textView2.setText(kategorier.text4s);
+
     }
 }
