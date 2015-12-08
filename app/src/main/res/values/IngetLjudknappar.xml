@@ -56,40 +56,115 @@
 
 
     // Webbläsare
-    <string name="Webbläsaretips_knapp1"></string>
-    <string name="Webbläsaretips_knapp2"></string>
-    <string name="Webbläsaretips_knapp3"></string>
-    <string name="Webbläsaretips_knapp4"></string>
+    <string name="Webbläsaretips_knapp1">Kommandon</string>
+    <string name="Webbläsaretips_knapp2">Bokmärken</string>
+    <string name="Webbläsaretips_knapp3">Slippa skapa konton</string>
+    <string name="Webbläsaretips_knapp4">Tillägg</string>
 
     // Hantera virus
-    <string name="virustips_knapp1"></string>
-    <string name="virustips_knapp2"></string>
-    <string name="virustips_knapp3"></string>
-    <string name="virustips_knapp4"></string>
+    <string name="virustips_knapp1">Anti-virus</string>
+    <string name="virustips_knapp2">Billiga sidor</string>
+    <string name="virustips_knapp3">Acceptera inget</string>
+    <string name="virustips_knapp4">Custom installeringar</string>
 
     // Program
-    <string name="Programtips_knapp1"></string>
-    <string name="Programtips_knapp2"></string>
-    <string name="Programtips_knapp3"></string>
-    <string name="Programtips_knapp4"></string>
+    <string name="Programtips_knapp1">Ändra prioritering</string>
+    <string name="Programtips_knapp2">Skapa genväg</string>
+    <string name="Programtips_knapp3">Kompabilitetsläge</string>
+    <string name="Programtips_knapp4">Kör som administratör</string>
 
     // Paint
-    <string name="Painttips_knapp1"></string>
-    <string name="Painttips_knapp2"></string>
-    <string name="Painttips_knapp3"></string>
-    <string name="Painttips_knapp4"></string>
+    <string name="Painttips_knapp1">Frihandsmarkering</string>
+    <string name="Painttips_knapp2">Markera och klistra in</string>
+    <string name="Painttips_knapp3">Genomskinlig markering</string>
+    <string name="Painttips_knapp4">Custom pensel</string>
 
     // Programmering
-    <string name="Programmeringtips_knapp1"></string>
-    <string name="Programmeringtips_knapp2"></string>
-    <string name="Programmeringtips_knapp3"></string>
-    <string name="Programmeringtips_knapp4"></string>
+    <string name="Programmeringtips_knapp1">Macros</string>
+    <string name="Programmeringtips_knapp2">Gör kör kommando</string>
+    <string name="Programmeringtips_knapp3">Kodeditor</string>
+    <string name="Programmeringtips_knapp4">Debug</string>
 
 
     // Undvika krascher
-    <string name="kraschertips_knapp1"></string>
-    <string name="kraschertips_knapp2"></string>
-    <string name="kraschertips_knapp3"></string>
-    <string name="kraschertips_knapp4"></string>
+    <string name="kraschertips_knapp1">Kolla prestanda</string>
+    <string name="kraschertips_knapp2">Temperatur koll</string>
+    <string name="kraschertips_knapp3">Flikar</string>
+    <string name="kraschertips_knapp4">Mer RAM</string>
+
+
+    // Mobil knapper
+    // Problem
+    <string name="touch_knapp1">1</string>
+    <string name="touch_knapp2">2</string>
+    <string name="touch_knapp3">3</string>
+    <string name="touch_knapp4">4</string>
+
+    <string name="puk_knapp1">1</string>
+    <string name="puk_knapp2">2</string>
+    <string name="puk_knapp3">3</string>
+    <string name="puk_knapp4">4</string>
+
+    <string name="svartskarm_knapp1">1</string>
+    <string name="svartskarm_knapp2">2</string>
+    <string name="svartskarm_knapp3">3</string>
+    <string name="svartskarm_knapp4">4</string>
+
+    <string name="segmobil_knapp1">1</string>
+    <string name="segmobil_knapp2">2</string>
+    <string name="segmobil_knapp3">3</string>
+    <string name="segmobil_knapp4">4</string>
+
+    <string name="kamfel_knapp1">1</string>
+    <string name="kamfel_knapp2">2</string>
+    <string name="kamfel_knapp3">3</string>
+    <string name="kamfel_knapp4">4</string>
+
+    <string name="varmmobil_knapp1">1</string>
+    <string name="varmmobil_knapp2">2</string>
+    <string name="varmmobil_knapp3">3</string>
+    <string name="varmmobil_knapp4">4</string>
+
+    <string name="internet_knapp1">1</string>
+    <string name="internet_knapp2">2</string>
+    <string name="internet_knapp3">3</string>
+    <string name="internet_knapp4">4</string>
+
+    // Tips
+    <string name="appar_knapp1">1</string>
+    <string name="appar_knapp2">2</string>
+    <string name="appar_knapp3">3</string>
+    <string name="appar_knapp4">4</string>
+
+    <string name="batteri_knapp1">1</string>
+    <string name="batteri_knapp2">2</string>
+    <string name="batteri_knapp3">3</string>
+    <string name="batteri_knapp4">4</string>
+
+    <string name="designastart_knapp1">1</string>
+    <string name="designastart_knapp2">2</string>
+    <string name="designastart_knapp3">3</string>
+    <string name="designastart_knapp4">4</string>
+
+    <string name="sakerhet_knapp1">1</string>
+    <string name="sakerhet_knapp2">2</string>
+    <string name="sakerhet_knapp3">3</string>
+    <string name="sakerhet_knapp4">4</string>
+
+    <string name="mobilwebb_knapp1">1</string>
+    <string name="mobilwebb_knapp2">2</string>
+    <string name="mobilwebb_knapp3">3</string>
+    <string name="mobilwebb_knapp4">4</string>
+
+    <string name="genvagar_knapp1">1</string>
+    <string name="genvagar_knapp2">2</string>
+    <string name="genvagar_knapp3">3</string>
+    <string name="genvagar_knapp4">4</string>
+
+    <string name="ovrigt_knapp1">1</string>
+    <string name="ovrigt_knapp2">2</string>
+    <string name="ovrigt_knapp3">3</string>
+    <string name="ovrigt_knapp4">4</string>
+
 
 </resources>

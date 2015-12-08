@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // Mobil innehåll
+    // Problem
+    <string name="title_text_appar1"></string>
+    <string name="title_text_appar2"></string>
+    <string name="title_text_appar3"></string>
+    <string name="title_text_appar4"></string>
+
+    <string name="title_text_batteri1"></string>
+    <string name="title_text_batteri2"></string>
+    <string name="title_text_batteri3"></string>
+    <string name="title_text_batteri4"></string>
+
+    <string name="title_text_designstart1"></string>
+    <string name="title_text_designstart2"></string>
+    <string name="title_text_designstart3"></string>
+    <string name="title_text_designstar4"></string>
+
+    <string name="title_text_sakerhet1"></string>
+    <string name="title_text_sakerhet2"></string>
+    <string name="title_text_sakerhet3"></string>
+    <string name="title_text_sakerhet4"></string>
+
+    <string name="title_text_mobilwebb1"></string>
+    <string name="title_text_mobilwebb2"></string>
+    <string name="title_text_mobilwebb3"></string>
+    <string name="title_text_mobilwebb4"></string>
+
+    <string name="title_text_genvag1"></string>
+    <string name="title_text_genvag2"></string>
+    <string name="title_text_genvag3"></string>
+    <string name="title_text_genvag4"></string>
+
+    <string name="title_text_ovrigt1"></string>
+    <string name="title_text_ovrigt2"></string>
+    <string name="title_text_ovrigt3"></string>
+    <string name="title_text_ovrigt4"></string>
+
+</resources>
