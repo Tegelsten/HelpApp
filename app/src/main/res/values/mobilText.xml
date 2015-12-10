@@ -3,39 +3,76 @@
 
     // Mobil innehåll
     // Problem
-    <string name="title_text_appar1"></string>
-    <string name="title_text_appar2"></string>
-    <string name="title_text_appar3"></string>
-    <string name="title_text_appar4"></string>
+    <string name="title_text_touch1">111</string>
+    <string name="title_text_touch2">222</string>
+    <string name="title_text_touch3">333</string>
+    <string name="title_text_touch4">444</string>
 
-    <string name="title_text_batteri1"></string>
-    <string name="title_text_batteri2"></string>
-    <string name="title_text_batteri3"></string>
-    <string name="title_text_batteri4"></string>
+    <string name="title_text_puk1">111</string>
+    <string name="title_text_puk2">222</string>
+    <string name="title_text_puk3">333</string>
+    <string name="title_text_puk4">444</string>
 
-    <string name="title_text_designstart1"></string>
-    <string name="title_text_designstart2"></string>
-    <string name="title_text_designstart3"></string>
-    <string name="title_text_designstar4"></string>
+    <string name="title_text_svartskarm1">111</string>
+    <string name="title_text_svartskarm2">222</string>
+    <string name="title_text_svartskarm3">333</string>
+    <string name="title_text_svartskarm4">444</string>
 
-    <string name="title_text_sakerhet1"></string>
-    <string name="title_text_sakerhet2"></string>
-    <string name="title_text_sakerhet3"></string>
-    <string name="title_text_sakerhet4"></string>
+    <string name="title_text_segskarm1">111</string>
+    <string name="title_text_segskarm2">222</string>
+    <string name="title_text_segskarm3">333</string>
+    <string name="title_text_segskarm4">444</string>
 
-    <string name="title_text_mobilwebb1"></string>
-    <string name="title_text_mobilwebb2"></string>
-    <string name="title_text_mobilwebb3"></string>
-    <string name="title_text_mobilwebb4"></string>
+    <string name="title_text_kamfel1">111</string>
+    <string name="title_text_kamfel2">222</string>
+    <string name="title_text_kamfel3">333</string>
+    <string name="title_text_kamfel4">444</string>
 
-    <string name="title_text_genvag1"></string>
-    <string name="title_text_genvag2"></string>
-    <string name="title_text_genvag3"></string>
-    <string name="title_text_genvag4"></string>
+    <string name="title_text_varmobil1">111</string>
+    <string name="title_text_varmobil2">222</string>
+    <string name="title_text_varmobil3">333</string>
+    <string name="title_text_varmobil4">444</string>
 
-    <string name="title_text_ovrigt1"></string>
-    <string name="title_text_ovrigt2"></string>
-    <string name="title_text_ovrigt3"></string>
-    <string name="title_text_ovrigt4"></string>
+    <string name="title_text_tippinternet1">111</string>
+    <string name="title_text_tippinternet2">222</string>
+    <string name="title_text_tippinternet3">333</string>
+    <string name="title_text_tippinternet4">444</string>
+
+
+    // Tips
+    <string name="title_text_appar1">1</string>
+    <string name="title_text_appar2">2</string>
+    <string name="title_text_appar3">3</string>
+    <string name="title_text_appar4">4</string>
+
+    <string name="title_text_batteri1">1</string>
+    <string name="title_text_batteri2">2</string>
+    <string name="title_text_batteri3">3</string>
+    <string name="title_text_batteri4">4</string>
+
+    <string name="title_text_designstart1">1</string>
+    <string name="title_text_designstart2">2</string>
+    <string name="title_text_designstart3">3</string>
+    <string name="title_text_designstart4">4</string>
+
+    <string name="title_text_sakerhet1">1</string>
+    <string name="title_text_sakerhet2">2</string>
+    <string name="title_text_sakerhet3">3</string>
+    <string name="title_text_sakerhet4">4</string>
+
+    <string name="title_text_mobilwebb1">1</string>
+    <string name="title_text_mobilwebb2">2</string>
+    <string name="title_text_mobilwebb3">3</string>
+    <string name="title_text_mobilwebb4">4</string>
+
+    <string name="title_text_genvag1">1</string>
+    <string name="title_text_genvag2">2</string>
+    <string name="title_text_genvag3">3</string>
+    <string name="title_text_genvag4">4</string>
+
+    <string name="title_text_ovrigt1">1</string>
+    <string name="title_text_ovrigt2">2</string>
+    <string name="title_text_ovrigt3">3</string>
+    <string name="title_text_ovrigt4">4</string>
 
 </resources>

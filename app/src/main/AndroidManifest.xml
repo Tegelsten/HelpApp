@@ -35,8 +35,10 @@
         <activity
             android:name=".IngetLjud"
             android:label="@string/title_activity_inget_ljud">
-
         </activity>
+        <activity
+            android:name=".MobilNasta"
+            android:label="@string/title_activity_mobilnasta"></activity>
 
     </application>
 
