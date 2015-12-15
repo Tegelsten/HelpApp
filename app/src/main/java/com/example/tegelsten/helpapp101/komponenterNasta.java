@@ -8,27 +8,27 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MobilNasta extends AppCompatActivity {
+public class komponenterNasta extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mobilnasta);
+        setContentView(R.layout.activity_komponenternasta);
 
         TextView textElement = (TextView) findViewById(R.id.textView2);
         textElement.setText("Välj med knapparna ovanför");
 
         Button knapp1 = (Button) findViewById(R.id.knapp1);
-        knapp1.setText(mobil.knapps1);
+        knapp1.setText(datorkomponenter.knapps1);
 
         Button knapp2 = (Button) findViewById(R.id.knapp2);
-        knapp2.setText(mobil.knapps2);
+        knapp2.setText(datorkomponenter.knapps2);
 
         Button knapp3 = (Button) findViewById(R.id.knapp3);
-        knapp3.setText(mobil.knapps3);
+        knapp3.setText(datorkomponenter.knapps3);
 
         Button knapp4 = (Button) findViewById(R.id.knapp4);
-        knapp4.setText(mobil.knapps4);
+        knapp4.setText(datorkomponenter.knapps4);
 
     }
 
@@ -58,25 +58,25 @@ public class MobilNasta extends AppCompatActivity {
 
     public void butt1(View v) {
         textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(mobil.text1s);
+        textView2.setText(datorkomponenter.text1s);
 
     }
 
     public void butt2(View v) {
         textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(mobil.text2s);
+        textView2.setText(datorkomponenter.text2s);
 
     }
 
     public void butt3(View v) {
         textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(mobil.text3s);
+        textView2.setText(datorkomponenter.text3s);
 
     }
 
     public void butt4(View v) {
         textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(mobil.text4s);
+        textView2.setText(datorkomponenter.text4s);
 
     }
 }
