@@ -18,7 +18,6 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#FFFFFF"
         android:textSize="45dp"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <LinearLayout

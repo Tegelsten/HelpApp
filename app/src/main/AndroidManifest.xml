@@ -35,10 +35,31 @@
         <activity
             android:name=".IngetLjud"
             android:label="@string/title_activity_inget_ljud">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="res/xml/searchable.xml"/>
+
         </activity>
         <activity
             android:name=".MobilNasta"
-            android:label="@string/title_activity_mobilnasta"></activity>
+            android:label="@string/title_activity_mobilnasta">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="res/xml/searchable.xml"/>
+        </activity>
+        <activity
+            android:name=".komponenterNasta"
+            android:label="datorkomponenter">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="res/xml/searchable.xml"/>
+        </activity>
 
     </application>
 
