@@ -64,27 +64,5 @@ public class MainActivity extends AppCompatActivity {
         startActivity(startNewActivity);
 
     }
-    public void doMySearch(View view) {
-                "Inget ljud"
-                "Mikrofonen funkar inte"
-                "Får bluescreens"
-                "Inget internet"
-                "Ingen bild"
-                "Datorn fryser"
-                "Ingenting körs"
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        // Get the intent, verify the action and get the query
-        Intent intent = getIntent();
-        if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
-            String query = intent.getStringExtra(SearchManager.QUERY);
-            doMySearch(query);
-
-        }
-    }
 
 }
