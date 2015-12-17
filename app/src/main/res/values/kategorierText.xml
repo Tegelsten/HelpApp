@@ -3,7 +3,9 @@
 
     // Kategorier problem Innehåll texter
     // Inget Ljud
-    <string name="title_text_ingetljudtxt1">Inget Ljud danke dunke munke lunke runke bunke nugga niguy111111111111111</string>
+    <string name="title_text_ingetljudtxt1">Gå till det högra hörnet på verktygsfältet och klicka på högtalaren. Om det ej är en synlig högtalare på verktygsfältet; klicka på pilen för att få upp en liten meny, där bör högtalaren finnas om den ej är synlig på själva verktygsfältet.
+Klickar man på högtalaren så kommer man in på menyn som heter Volymkontrollen, checka först och främst om ljudet är avstängt, är ljudet helt avstängt så bör det vara en stoppskylt på högtalarikonen i verktygsfältet. Detta fixas enkelt av att klicka på högtalarikonen längst ned i volymkontrollen, fungerar inte det så kan ljudet vara satt på 0, vilket syns på sildern precis ovanför ikonen och fixas också väldigt enkelt genom att dra den uppåt. 
+</string>
     <string name="title_text_ingetljudtxt2">Inget Ljud danke dunke munke lunke runke bunke nugga niguy 22222222222222</string>
     <string name="title_text_ingetljudtxt3">Inget Ljud danke dunke munke lunke runke bunke nugga niguy 33333333333333333</string>
     <string name="title_text_ingetljudtxt4">Inget Ljud danke dunke munke lunke runke bunke nugga niguy 44444444444444444</string>
