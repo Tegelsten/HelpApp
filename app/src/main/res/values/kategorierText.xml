@@ -3,84 +3,147 @@
 
     // Kategorier problem Innehåll texter
     // Inget Ljud
+    // Kolla volymkontrollen
     <string name="title_text_ingetljudtxt1">Gå till det högra hörnet på verktygsfältet och klicka på högtalaren. Om det ej är en synlig högtalare på verktygsfältet; klicka på pilen för att få upp en liten meny, där bör högtalaren finnas om den ej är synlig på själva verktygsfältet.
 Klickar man på högtalaren så kommer man in på menyn som heter Volymkontrollen, checka först och främst om ljudet är avstängt, är ljudet helt avstängt så bör det vara en stoppskylt på högtalarikonen i verktygsfältet. Detta fixas enkelt av att klicka på högtalarikonen längst ned i volymkontrollen, fungerar inte det så kan ljudet vara satt på 0, vilket syns på sildern precis ovanför ikonen och fixas också väldigt enkelt genom att dra den uppåt. 
-</string>
-    <string name="title_text_ingetljudtxt2">Inget Ljud danke dunke munke lunke runke bunke nugga niguy 22222222222222</string>
+    </string>
+    // Kolla USB
+    <string name="title_text_ingetljudtxt2">Inget  niguy 22222222222222</string>
+    // Rätt uppspelningsenhet
     <string name="title_text_ingetljudtxt3">Inget Ljud danke dunke munke lunke runke bunke nugga niguy 33333333333333333</string>
+    // Drivers
     <string name="title_text_ingetljudtxt4">Inget Ljud danke dunke munke lunke runke bunke nugga niguy 44444444444444444</string>
 
     // Mikrofonen funkar inte
+    // Kolla inspelningsenhet
     <string name="title_text_miktxt1">Mikrofonen funkar ej, låt mig simma med aquaboy111111111111111</string>
+    // Kolla USB
     <string name="title_text_miktxt2">Mikrofonen funkar ej, låt mig simma med aquaboy22222222222222</string>
+    // Om trådlös, störninger
     <string name="title_text_miktxt3">Mikrofonen funkar ej, låt mig simma med aquaboy33333333333333333</string>
+    // Drivers
     <string name="title_text_miktxt4">Mikrofonen funkar ej, låt mig simma med aquabo44444444444444444y</string>
 
     // Får bluescreens
+    // Diagnosera
     <string name="title_text_bluescreen1">Das bluescreen = gråta111111111111111</string>
+    // Hårdvara
     <string name="title_text_bluescreen2">Das bluescreen = gråta22222222222222</string>
+    // Temperatur
     <string name="title_text_bluescreen3">Das bluescreen = gråta33333333333333333</string>
+    // RAM test
     <string name="title_text_bluescreen4">Das bluescreen = gråta44444444444444444</string>
 
     // Inget internet
+    // Kolla Ethernet kabel
     <string name="title_text_internet1">ingeintersnasse, palapatine dialo poe111111111111111</string>
+    // Wi-Fi knappen
     <string name="title_text_internet2">ingeintersnasse, palapatine dialo poe22222222222222</string>
+    // Byta IP-adress
     <string name="title_text_internet3">ingeintersnasse, palapatine dialo poe33333333333333333</string>
+    // Ring operatör
     <string name="title_text_internet4">ingeintersnasse, palapatine dialo poe44444444444444444</string>
 
     // Ingen bild
+    // Kolla kabel
     <string name="title_text_bild1">va ä bilden, öppet hus. komosaurus111111111111111</string>
+    // Grafik problem
     <string name="title_text_bild2">va ä bilden, öppet hus. komosaurus22222222222222</string>
+    // Skärminställningar
     <string name="title_text_bild3">va ä bilden, öppet hus. komosaurus33333333333333333</string>
+    // Datorn sover
     <string name="title_text_bild4">va ä bilden, öppet hus. komosaurus44444444444444444</string>
 
     // Datorn fryser
+    // Många program
     <string name="title_text_frys1">De ä kallt för de fryser111111111111111</string>
+    // Driver
     <string name="title_text_frys2">De ä kallt för de fryser22222222222222</string>
+    // Operativsystem
     <string name="title_text_frys3">De ä kallt för de fryser33333333333333333</string>
+    // Hårdvaruproblem
     <string name="title_text_frys4">De ä kallt för de fryser44444444444444444</string>
 
     // Ingenting körs
+    // Stryp datorn
     <string name="title_text_kors1">Varför körs inget please help m14 aim111111111111111</string>
+    // Virus
     <string name="title_text_kors2">Varför körs inget please help m14 aim22222222222222</string>
+    // Aktivitetshanteraren
     <string name="title_text_kors3">Varför körs inget please help m14 aim33333333333333333</string>
+    // Nätaggregat
     <string name="title_text_kors4">Varför körs inget please help m14 aim44444444444444444</string>
 
 
-    // Kategorier problem Innehåll texter
+    // Kategorier tips Innehåll texter
+    // Kommandon
+    // Allmäna kortkommandon
     <string name="title_text_kortkom1">11111111111</string>
+    // Windows
     <string name="title_text_kortkom2">222</string>
+    // Dialogbox
     <string name="title_text_kortkom3">3</string>
+    // Filhanterare
     <string name="title_text_kortkom4">4</string>
+    // http://www.hongkiat.com/blog/100-keyboard-shortcuts-windows/
 
+    // Webbläsare
     <string name="title_text_webb1">1</string>
+    // Bokmärken
     <string name="title_text_webb2">2</string>
+    // Slippa skapa konton
     <string name="title_text_webb3">3</string>
+    // Tillägg
     <string name="title_text_webb4">4</string>
 
+    // Hantera virus
+    // Anti-virus
     <string name="title_text_virus1">1</string>
+    // Billiga sidor
     <string name="title_text_virus2">2</string>
+    // Acceptera inget
     <string name="title_text_virus3">3</string>
+    // Custom installeringar
     <string name="title_text_virus4">4</string>
 
+    // Program
+    // Ändra prioritering
     <string name="title_text_program1">1</string>
+    // Skapa genväg
     <string name="title_text_program2">2</string>
+    // Kompabilitetsläge
     <string name="title_text_program3">3</string>
+    // Kör som administratör
     <string name="title_text_program4">4</string>
 
+    // Paint
+    // Frihandsmarkering
     <string name="title_text_paint1">1</string>
+    // Markera och klistra in
     <string name="title_text_paint2">2</string>
+    // Genomskinlig markering
     <string name="title_text_paint3">3</string>
+    // Custom pensel
     <string name="title_text_paint4">4</string>
 
+    // Programmering
+    // Macros
     <string name="title_text_programmering1">1</string>
+    // Gör kör kommandon
     <string name="title_text_programmering2">2</string>
+    // Kodeditor
     <string name="title_text_programmering3">3</string>
+    // Debug
     <string name="title_text_programmering4">4</string>
 
+    // Undvika krascher
+    //Kolla prestanda
     <string name="title_text_krasch1">1</string>
+    // Temperaturkoll
     <string name="title_text_krasch2">2</string>
+    // Flikar
     <string name="title_text_krasch3">3</string>
+    // Mer RAM
     <string name="title_text_krasch4">4</string>
 
 </resources>

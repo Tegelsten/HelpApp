@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     // Kategorier
@@ -24,7 +23,7 @@
     // Internet problem
     <string name="Internet_knapp1">Kolla Ethernet kabel</string>
     <string name="Internet_knapp2">Wi-Fi knappen</string>
-    <string name="Internet_knapp3">Byta IP-adress</string>
+    <string name="Internet_knapp3">Byta IP-address</string>
     <string name="Internet_knapp4">Ring Operatör</string>
 
     // Bild problem
@@ -52,7 +51,6 @@
     <string name="Kortkommandontips_knapp2">Windows kortkommandon</string>
     <string name="Kortkommandontips_knapp3">Dialogbox kortkommandon</string>
     <string name="Kortkommandontips_knapp4">Filhanterare kortkommandon</string>
-    // http://www.hongkiat.com/blog/100-keyboard-shortcuts-windows/
 
 
     // Webbläsare
@@ -88,7 +86,7 @@
 
     // Undvika krascher
     <string name="kraschertips_knapp1">Kolla prestanda</string>
-    <string name="kraschertips_knapp2">Temperatur koll</string>
+    <string name="kraschertips_knapp2">Temperaturkoll</string>
     <string name="kraschertips_knapp3">Flikar</string>
     <string name="kraschertips_knapp4">Mer RAM</string>
 
@@ -169,76 +167,7 @@
 
     // Datorkomponenter
     // Problem
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
 
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-
-    // Tips
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
 
 
 </resources>
