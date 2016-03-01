@@ -5,7 +5,8 @@
     // Inget Ljud
     // Kolla volymkontrollen
     <string name="title_text_ingetljudtxt1">Gå till det högra hörnet på verktygsfältet och klicka på högtalaren. Om det ej är en synlig högtalare på verktygsfältet; klicka på pilen för att få upp en liten meny, där bör högtalaren finnas om den ej är synlig på själva verktygsfältet.
-Klickar man på högtalaren så kommer man in på menyn som heter Volymkontrollen, checka först och främst om ljudet är avstängt, är ljudet helt avstängt så bör det vara en stoppskylt på högtalarikonen i verktygsfältet. Detta fixas enkelt av att klicka på högtalarikonen längst ned i volymkontrollen, fungerar inte det så kan ljudet vara satt på 0, vilket syns på sildern precis ovanför ikonen och fixas också väldigt enkelt genom att dra den uppåt. 
+Klickar man på högtalaren så kommer man in på menyn som heter Volymkontrollen, checka först och främst om ljudet är avstängt, är ljudet helt avstängt så bör det vara en stoppskylt på högtalarikonen i verktygsfältet.
+        Detta fixas enkelt av att klicka på högtalarikonen längst ned i volymkontrollen, fungerar inte det så kan ljudet vara satt på 0, vilket syns på sildern precis ovanför ikonen och fixas också väldigt enkelt genom att dra den uppåt.
     </string>
 
     // Kolla USB
@@ -22,15 +23,19 @@ Klickar man på högtalaren så kommer man in på menyn som heter Volymkontrolle
     \nOm man inte har en disk så kan man skaffa apparatens drivers på tillverkarens sida.
     \n(t.ex. logitech.com > Support > Nedladdning)</string>
 
+
     // Mikrofonen funkar inte
     // Kolla inspelningsenhet
-    <string name="title_text_miktxt1">Mikrofonen funkar ej, låt mig simma med aquaboy111111111111111</string>
+    <string name="title_text_miktxt1">Högerklicka på ljudikonen på verktygsfältet > klicka "Inspelningsenheter." \nIfall din enhet är inaktiverad, aktivera den. Om din enhet inte visas > högerklicka på
+    bakgrunden bland enheterna sedan "Visa inaktiverade enheter". </string>
     // Kolla USB
-    <string name="title_text_miktxt2">Mikrofonen funkar ej, låt mig simma med aquaboy22222222222222</string>
+    <string name="title_text_miktxt2">Lösning 1: Se till att den sitter i. \nLösning 2: Är USB:n du använder fel USB version? Det finns flera olika USB versioner(1.1, 2, 3.1). Testa i olika USB-portar.</string>
     // Om trådlös, störninger
-    <string name="title_text_miktxt3">Mikrofonen funkar ej, låt mig simma med aquaboy33333333333333333</string>
+    <string name="title_text_miktxt3">Vid trådlös mikrofon så kan mobiler eller mikrovågor störa signalen mellan mottagaren och din mikrofon.\nLösning: Flytta allt som kan skapa en störning mellan dig och mottagaren.</string>
     // Drivers
-    <string name="title_text_miktxt4">Mikrofonen funkar ej, låt mig simma med aquabo44444444444444444y</string>
+    <string name="title_text_miktxt4">När man använder nya inspelningsenheter så brukar man behöva skaffa drivers. Ibland så får man drivers på en disk som bara är att läsa och sedan installera.
+    \nOm man inte har en disk så kan man skaffa apparatens drivers på tillverkarens sida.
+    \n(t.ex. logitech.com > Support > Nedladdning)</string>
 
     // Får bluescreens
     // Diagnosera
