@@ -50,43 +50,50 @@ Lösning 2: Hitta drivers som nyligen blivit uppdaterade. Avinstallera och insta
 
     // Inget internet
     // Kolla Ethernet kabel
-    <string name="title_text_internet1">ingeintersnasse, palapatine dialo poe111111111111111</string>
+    <string name="title_text_internet1">Se till så Ethernetkabeln sitter i eller att den inte är i två delar.</string>
     // Wi-Fi knappen
-    <string name="title_text_internet2">ingeintersnasse, palapatine dialo poe22222222222222</string>
+    <string name="title_text_internet2">Om du har en bärbar dator så brukar det finns en Av/På knapp som ser ut som en Wi-Fi ikon.</string>
     // Byta IP-adress
-    <string name="title_text_internet3">ingeintersnasse, palapatine dialo poe33333333333333333</string>
+    <string name="title_text_internet3">Starta om ditt modem för att byta IP-adress eller andra problem som kan ha uppstått </string>
     // Ring operatör
-    <string name="title_text_internet4">ingeintersnasse, palapatine dialo poe44444444444444444</string>
+    <string name="title_text_internet4">De mesta problemen kan lösas bara genom att klaga på någon annan som kan lösa det. Ring din internetleverantör. </string>
+
 
     // Ingen bild
     // Kolla kabel
-    <string name="title_text_bild1">va ä bilden, öppet hus. komosaurus111111111111111</string>
-    // Grafik problem
-    <string name="title_text_bild2">va ä bilden, öppet hus. komosaurus22222222222222</string>
+    <string name="title_text_bild1">Se till att din kabel som är kopplad till din skärm sitter som den ska och att det finns ström till din/dina skärmar. </string>
+    // Grafikproblem
+    <string name="title_text_bild2">Lösning 1: Testa andra grafikdrivrutiner för ditt grafikkort genom att gå in på tillverkarens sida och ladda ner nya.\n\nLösning 2: Ominstallera windows.</string>
     // Skärminställningar
-    <string name="title_text_bild3">va ä bilden, öppet hus. komosaurus33333333333333333</string>
+    <string name="title_text_bild3">Testa inställningarna på din skärm. Lösning 1: Se till så att den är i rätt läge t.ex. om du är kopplad via HDMI så ska du sätta så att din skärm visar HDMI.</string>
     // Datorn sover
-    <string name="title_text_bild4">va ä bilden, öppet hus. komosaurus44444444444444444</string>
+    <string name="title_text_bild4">Din dator är av eller i viloläge; starta den eller bara rör till musen.</string>
+
 
     // Datorn fryser
     // Många program
-    <string name="title_text_frys1">De ä kallt för de fryser111111111111111</string>
+    <string name="title_text_frys1">Du använder för mycket minne och CPU. Stäng några applikationer eller skaffa en bättre dator.</string>
     // Driver
-    <string name="title_text_frys2">De ä kallt för de fryser22222222222222</string>
-    // Operativsystem
-    <string name="title_text_frys3">De ä kallt för de fryser33333333333333333</string>
+    <string name="title_text_frys2">Du har dåliga eller inkompatibla drivers. Drivers är mjukvara som hjälper din hårdvara kommunicera med ditt operativsystem. \nLösning 1: Om du har en återställningspunkt så använd den.
+\n\nLösning 2: Ominstallera windows.</string>
+    // Virus
+    <string name="title_text_frys3">Skaffa ett Antivirus som kan söka igenom din dator. HelpApp rekommendation: Malwarebytes.</string>
     // Hårdvaruproblem
-    <string name="title_text_frys4">De ä kallt för de fryser44444444444444444</string>
+    <string name="title_text_frys4">Du kan behöva byta ut hårdvara för något har hänt med dom. Du måste få reda på vilken komponent som det är fel med; börja med att kolla minnet sedan hårddisk, nätaggregat, moderkort, processor. </string>
+
 
     // Ingenting körs
-    // Stryp datorn
-    <string name="title_text_kors1">Varför körs inget please help m14 aim111111111111111</string>
+    // Starta om datorn
+    <string name="title_text_kors1">Lösning 1: starta om det vanliga sättet Start > Av/på > Starta om.\n\nLösning 2: Håll i stäng av knappen ett tag tills datorn slutar. </string>
     // Virus
-    <string name="title_text_kors2">Varför körs inget please help m14 aim22222222222222</string>
+    <string name="title_text_kors2">Lösning 1: Ladda ner ett antivirus som t.ex. Malwarebytes och skanna hela datorn. \n\nLösning 2: Ibland om du har ett hemskt virus är det nästan mer värt att ominstallera windows</string>
     // Aktivitetshanteraren
-    <string name="title_text_kors3">Varför körs inget please help m14 aim33333333333333333</string>
-    // Nätaggregat
-    <string name="title_text_kors4">Varför körs inget please help m14 aim44444444444444444</string>
+    <string name="title_text_kors3">Se om saker körs även fast du inte ser att det körs. Om det gör det så stäng av programmet och försök köra det igen.  </string>
+    // Felsäkert läge
+    <string name="title_text_kors4">Starta datorn I felsäkert läge. Om problemet inte uppstår i felsäkert läge vet du till exempel att det inte är standardinställningarna och de grundläggande enhetsdrivrutinerna som orsakar problemet. 
+\n\nI felsäkert läge kan du då stänga av program eller drivrutiner som kan tänkas orsaka uppstartsproblemet. 
+\n\nFör att komma in i felsäkert läge så trycker du F8 vid uppstart av datorn.(Windows)</string>
+
 
 
     // Kategorier tips Innehåll texter
