@@ -28,7 +28,7 @@
 
     // Bild problem
     <string name="Bild_knapp1">Kolla kabel</string>
-    <string name="Bild_knapp2">Grafik problem</string>
+    <string name="Bild_knapp2">Grafikproblem</string>
     <string name="Bild_knapp3">Skärminställningar</string>
     <string name="Bild_knapp4">Datorn sover</string>
 
