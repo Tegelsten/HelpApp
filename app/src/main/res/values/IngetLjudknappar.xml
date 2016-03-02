@@ -35,7 +35,7 @@
     // Datorn fryser
     <string name="frys_knapp1">Många program</string>
     <string name="frys_knapp2">Driver</string>
-    <string name="frys_knapp3">Operativsystem</string>
+    <string name="frys_knapp3">Virus</string>
     <string name="frys_knapp4">Hårdvaru problem</string>
 
     // Ingenting körs
