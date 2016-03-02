@@ -38,14 +38,15 @@ Klickar man på högtalaren så kommer man in på menyn som heter Volymkontrolle
     \n(t.ex. logitech.com > Support > Nedladdning)</string>
 
     // Får bluescreens
-    // Diagnosera
-    <string name="title_text_bluescreen1">Das bluescreen = gråta111111111111111</string>
+    // Diagnoserna
+    <string name="title_text_bluescreen1">Kom ihåg om du har ändra något nyligen. Den största anledningen man får bluescreens är för att det är nya drivers som har uppdaterats. Drivers är mjukvara som hjälper din hårdvara kommunicera med ditt operativsystem.\nLösning med återställningspunkt(Windows 10): \nOm du har en återställningspunkt gör det genom > Start > inställningar > Uppdatering och säkerhet > Återställning.\n\n
+Lösning 2: Hitta drivers som nyligen blivit uppdaterade. Avinstallera och installera äldre drivers. </string>
     // Hårdvara
-    <string name="title_text_bluescreen2">Das bluescreen = gråta22222222222222</string>
+    <string name="title_text_bluescreen2">Se till så att alla kablar eller hårdvara sitter fast i din dator. Ibland kan en dålig anslutning skapa en bluescreen.</string>
     // Temperatur
-    <string name="title_text_bluescreen3">Das bluescreen = gråta33333333333333333</string>
+    <string name="title_text_bluescreen3">Hårdvara som blir alldeles för varm kan sluta fungera och skapa en bluescreen.\nLösning 1: Ta bort allt damm i din dator genom en kompressor eller något annat med tryck.\nLösning 2: Använd en tredjeparti mjukvara för att kolla på dina datorkomponenters temperatur. Byt ut eventuell hårdvara som överhettar.</string>
     // RAM test
-    <string name="title_text_bluescreen4">Das bluescreen = gråta44444444444444444</string>
+    <string name="title_text_bluescreen4">Kör ett program som heter Windows Minnesdiagnostik. Gå in på start och sök Windows Minnesdiagnostik. </string>
 
     // Inget internet
     // Kolla Ethernet kabel
