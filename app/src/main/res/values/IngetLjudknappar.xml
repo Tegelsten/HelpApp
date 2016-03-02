@@ -39,7 +39,7 @@
     <string name="frys_knapp4">Hårdvaru problem</string>
 
     // Ingenting körs
-    <string name="kors_knapp1">Stryp datorn</string>
+    <string name="kors_knapp1">Stäng av datorn</string>
     <string name="kors_knapp2">Virus</string>
     <string name="kors_knapp3">Aktivitetshanterarn</string>
     <string name="kors_knapp4">Nätaggregat</string>
