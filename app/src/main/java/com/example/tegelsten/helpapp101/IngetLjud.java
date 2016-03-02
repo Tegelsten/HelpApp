@@ -17,7 +17,7 @@ public class IngetLjud extends AppCompatActivity {
         setContentView(R.layout.activity_inget_ljud);
 
         TextView textElement = (TextView) findViewById(R.id.textView2);
-        textElement.setText("Välj med knapparna ovanför ovanför");
+        textElement.setText("Välj med knapparna ovanför");
 
         Button knapp1 = (Button) findViewById(R.id.knapp1);
         knapp1.setText(kategorier.knapps1);
