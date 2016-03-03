@@ -93,15 +93,15 @@
     // Mobil knapper
     // Problem
     // Touch fel
-    <string name="touch_knapp1">1</string>
-    <string name="touch_knapp2">2</string>
-    <string name="touch_knapp3">3</string>
-    <string name="touch_knapp4">4</string>
+    <string name="touch_knapp1">Starta om</string>
+    <string name="touch_knapp2">Återställning</string>
+    <string name="touch_knapp3">Byt ut skärmen</string>
+    <string name="touch_knapp4">Acceptera ödet</string>
 
     // PUK eller PIN
-    <string name="puk_knapp1">1</string>
-    <string name="puk_knapp2">2</string>
-    <string name="puk_knapp3">3</string>
+    <string name="puk_knapp1">Mobiloperatör vid glömd PUK</string>
+    <string name="puk_knapp2">Byta PIN</string>
+    <string name="puk_knapp3"></string>
     <string name="puk_knapp4">4</string>
 
     // Svart skärm
