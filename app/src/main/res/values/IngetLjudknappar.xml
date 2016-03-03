@@ -101,18 +101,18 @@
     // PUK eller PIN
     <string name="puk_knapp1">Mobiloperatör vid glömd PUK</string>
     <string name="puk_knapp2">Byta PIN</string>
-    <string name="puk_knapp3"></string>
-    <string name="puk_knapp4">4</string>
+    <string name="puk_knapp3">Om fel PUK 10 gånger</string>
+    <string name="puk_knapp4">Vid stulen mobil</string>
 
     // Svart skärm
-    <string name="svartskarm_knapp1">1</string>
-    <string name="svartskarm_knapp2">2</string>
-    <string name="svartskarm_knapp3">3</string>
-    <string name="svartskarm_knapp4">4</string>
+    <string name="svartskarm_knapp1">Kolla batteriet</string>
+    <string name="svartskarm_knapp2">Fabriksåterställning</string>
+    <string name="svartskarm_knapp3">Snabb återställning</string>
+    <string name="svartskarm_knapp4">Byt skärm</string>
 
     // Seg mobil
-    <string name="segmobil_knapp1">1</string>
-    <string name="segmobil_knapp2">2</string>
+    <string name="segmobil_knapp1">Avinstallera onödigt applikationer</string>
+    <string name="segmobil_knapp2">Rensa cachedata</string>
     <string name="segmobil_knapp3">3</string>
     <string name="segmobil_knapp4">4</string>
 
