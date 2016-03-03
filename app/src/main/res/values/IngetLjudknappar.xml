@@ -90,39 +90,45 @@
     <string name="kraschertips_knapp3">Flikar</string>
     <string name="kraschertips_knapp4">Mer RAM</string>
 
-
     // Mobil knapper
     // Problem
+    // Touch fel
     <string name="touch_knapp1">1</string>
     <string name="touch_knapp2">2</string>
     <string name="touch_knapp3">3</string>
     <string name="touch_knapp4">4</string>
 
+    // PUK eller PIN
     <string name="puk_knapp1">1</string>
     <string name="puk_knapp2">2</string>
     <string name="puk_knapp3">3</string>
     <string name="puk_knapp4">4</string>
 
+    // Svart skärm
     <string name="svartskarm_knapp1">1</string>
     <string name="svartskarm_knapp2">2</string>
     <string name="svartskarm_knapp3">3</string>
     <string name="svartskarm_knapp4">4</string>
 
+    // Seg mobil
     <string name="segmobil_knapp1">1</string>
     <string name="segmobil_knapp2">2</string>
     <string name="segmobil_knapp3">3</string>
     <string name="segmobil_knapp4">4</string>
 
+    // Kamerafel
     <string name="kamfel_knapp1">1</string>
     <string name="kamfel_knapp2">2</string>
     <string name="kamfel_knapp3">3</string>
     <string name="kamfel_knapp4">4</string>
 
+    // Varm mobil
     <string name="varmmobil_knapp1">1</string>
     <string name="varmmobil_knapp2">2</string>
     <string name="varmmobil_knapp3">3</string>
     <string name="varmmobil_knapp4">4</string>
 
+    // Internet
     <string name="internet_knapp1">1</string>
     <string name="internet_knapp2">2</string>
     <string name="internet_knapp3">3</string>
